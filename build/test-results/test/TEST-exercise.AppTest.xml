@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exercise.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-27T14:45:36" hostname="yatorogod-laptop" time="0.305">
+  <properties/>
+  <testcase name="test()" classname="exercise.AppTest" time="0.305"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 27, 2022 8:45:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Jun 27, 2022 8:45:36 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jun 27, 2022 8:45:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 27, 2022 8:45:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+Jun 27, 2022 8:45:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-38395"]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 27, 2022 8:45:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-38395"]
+Jun 27, 2022 8:45:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 27, 2022 8:45:36 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+Jun 27, 2022 8:45:36 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+Jun 27, 2022 8:45:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-38395"]
+]]></system-err>
+</testsuite>
